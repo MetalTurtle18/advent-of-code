@@ -1,9 +1,9 @@
-def part1(input_text):
-    return input_text[0]
+def part1(data):
+    return data[0]
 
 
-def part2(input_text):
-    return input_text[0]
+def part2(data):
+    return data[0]
 
 
 puzzle_input = open("input.txt", "r").read().split("\n")
