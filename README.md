@@ -1,4 +1,4 @@
-# Advent of Code 2021
+# Advent of Code
 
 I will push my solutions for each day to this repo.
 
