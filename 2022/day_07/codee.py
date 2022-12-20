@@ -47,9 +47,10 @@ def create_file_system(data) -> Directory:
     return file_system
 
 
-def part1_rec(fs, total):
+def part1_rec(fs):
+    total = 0
     for _d in fs.directories:
-        total += part1_rec(d := fs.directories[_d], 0)
+        total += part1_rec(d := fs.directories[_d])
         if d.size <= 100000:
             total += d.size
     return total
@@ -57,11 +58,23 @@ def part1_rec(fs, total):
 def part1(data):
     fs = create_file_system(data)
 
-    return part1_rec(fs, 0)
+    return part1_rec(fs)
+
+
+def part2_rec(fs, required_space):
+    smallest = 70_000_000
+    for _d in fs.directories:
+        d = fs.directories[_d]
+        if d.size >= required_space:
+            smallest = min(d.size, smallest)
+        smallest = min(smallest, part2_rec(d, required_space))
+    return smallest
 
 
 def part2(data):
-    return data[0]
+    fs = create_file_system(data)
+
+    return part2_rec(fs, fs.size - 40_000_000)
 
 
 puzzle_input = open("input.txt", "r").read().split("\n")
@@ -70,7 +83,7 @@ test_input = open("test.txt", "r").read().split("\n")
 if __name__ == "__main__":
     print("TEST:")
     print(f"Part 1: {part1(test_input)}")
-    # print(f"Part 2: {part2(test_input)}")
+    print(f"Part 2: {part2(test_input)}")
     print("MAIN:")
     print(f"Part 1: {part1(puzzle_input)}")
-    # print(f"Part 2: {part2(puzzle_input)}")
+    print(f"Part 2: {part2(puzzle_input)}")
