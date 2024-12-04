@@ -10,3 +10,6 @@ Day 1 of forgetting how Python deals with references to arrays and having proble
 
 ## Day 3
 Love me some regular expressions
+
+## Day 4
+Decent. Mildly cursed Python fun.
