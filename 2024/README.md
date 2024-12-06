@@ -18,3 +18,6 @@ Decent. Mildly cursed Python fun.
 Spent way too long trying think of a proper way to do part one before resorting to quadruple nested for loop brute force goodness. It is frightening to see the puzzle input not return instantly (foreshadowing? Unsure, I am writing this before reading part 2)...
 
 Part 2: I kinda just went with the simplest brute force idea I could think of, and it worked first try. Takes about the same time as part 1. Cool I guess.
+
+## Day 6
+Brute force still works...this one takes a minute though.
