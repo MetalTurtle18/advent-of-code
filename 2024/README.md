@@ -21,3 +21,6 @@ Part 2: I kinda just went with the simplest brute force idea I could think of, a
 
 ## Day 6
 Brute force still works...this one takes a minute though.
+
+## Day 7
+Thank goodness for unlimited integers in Python!
