@@ -24,3 +24,6 @@ Brute force still works...this one takes a minute though.
 
 ## Day 7
 Thank goodness for unlimited integers in Python!
+
+## Day 8
+This one sounded hard on first read but turned out to be straightforward. Luckily part 2 was a super easy modification. It was also really easy to make a simple visualization for this puzzle to visually verify the test case.
