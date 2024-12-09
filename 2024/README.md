@@ -27,3 +27,6 @@ Thank goodness for unlimited integers in Python!
 
 ## Day 8
 This one sounded hard on first read but turned out to be straightforward. Luckily part 2 was a super easy modification. It was also really easy to make a simple visualization for this puzzle to visually verify the test case.
+
+## Day 9
+Longest one yet...maybe because 30 minutes was spent unsure of how to deal with two-digit IDs. Unfortunately, part 2 was not free today. But I still got it!
