@@ -30,3 +30,6 @@ This one sounded hard on first read but turned out to be straightforward. Luckil
 
 ## Day 9
 Longest one yet...maybe because 30 minutes was spent unsure of how to deal with two-digit IDs. Unfortunately, part 2 was not free today. But I still got it!
+
+## Day 10
+A super easy part 2 today.
