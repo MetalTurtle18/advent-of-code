@@ -33,3 +33,6 @@ Longest one yet...maybe because 30 minutes was spent unsure of how to deal with 
 
 ## Day 10
 A super easy part 2 today.
+
+## Day 11
+The first puzzle this year with a super easy part 1 made difficult by repetition. To optimize, I noticed the number of stones was growing way larger than what I expected the maximum stone value to be. So storing only one entry for each stone value (dict with number of each stone) makes it much faster.
