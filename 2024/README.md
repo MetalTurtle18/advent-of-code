@@ -42,3 +42,6 @@ Part 1 was fine. Part 2 killed me. I was this close to quitting. I don't know ho
 
 ## Day 13
 Thanks to MATLAB, I knew how to write this system of equations in matrix form. I had issues with float precision in part 2, but one suggestion from the subreddit to just test if the rounded values satisfy the equation did the trick.
+
+## Day 14
+Today was pretty easy. Part 1 was super straightforward. Part 2 was... very strange. I decided to try finding a time point where no robots were overlapping, and that worked.
