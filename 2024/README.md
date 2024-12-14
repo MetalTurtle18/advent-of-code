@@ -39,3 +39,6 @@ The first puzzle this year with a super easy part 1 made difficult by repetition
 
 ## Day 12
 Part 1 was fine. Part 2 killed me. I was this close to quitting. I don't know how much longer I can keep doing these.
+
+## Day 13
+Thanks to MATLAB, I knew how to write this system of equations in matrix form. I had issues with float precision in part 2, but one suggestion from the subreddit to just test if the rounded values satisfy the equation did the trick.
