@@ -45,3 +45,6 @@ Thanks to MATLAB, I knew how to write this system of equations in matrix form. I
 
 ## Day 14
 Today was pretty easy. Part 1 was super straightforward. Part 2 was... very strange. I decided to try finding a time point where no robots were overlapping, and that worked.
+
+## Day 15
+Part 1 was easy. Part 2 wasn't particularly hard to figure out, but there were a lot of moving parts (haha). My code is absolutely disgusting, but I am not refactoring anything once I solve the puzzle.
