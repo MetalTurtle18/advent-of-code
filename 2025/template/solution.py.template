@@ -1,0 +1,14 @@
+from util import *
+
+def part1(data):
+    return data[0]
+
+
+def part2(data):
+    return data[0]
+
+
+if __name__ == "__main__":
+    aoc = AOC($DAY$)
+    print(aoc.test(part1, part2))
+    print(aoc.run(part1, part2))
