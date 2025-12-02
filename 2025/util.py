@@ -2,6 +2,7 @@ from typing import Callable
 
 LINES = lambda s: s.split("\n")
 INTS = lambda s: list(map(int, s.split("\n")))
+CSV = lambda s: s.split(",")
 
 class AOC:
     def __init__(self, day: int, transform: Callable[[str], iter] = None):
