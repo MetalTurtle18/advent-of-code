@@ -85,7 +85,7 @@ def rect_in_polygon(c1, c2, vertices):
                 return False
     return True
 
-def part2(data):  # doesn't work
+def part2(data):
     data = list(map(lambda d: tuple(map(int, d.split(','))), data))
     max_area = 0
     max_shape = ((0, 0), (0, 0))
